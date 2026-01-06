@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas
-app.use('/api', improveRoutes);
+app.use('/', improveRoutes);
 
 // Ruta de salud
 app.get('/health', (req, res) => {
